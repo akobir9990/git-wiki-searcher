@@ -58,3 +58,7 @@ wikiSearcher.addEventListener("keyup", (e) => {
     .then((res) => res.json())
     .then((data) => console.log(data));
 });
+
+wikiSearcher.addEventListener("keyup", () => {
+  
+});
